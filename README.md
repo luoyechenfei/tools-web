@@ -36,7 +36,18 @@
 ### Docker部署
 
 ```
-docker run -d --name tools-web --restart unless-stopped -p 8080:80 docker0796/tools-web:latest
+services:
+  tools-web:
+    image: ghcr.io/luoyechenfei/tools-web:latest
+    container_name: toolsweb
+    restart: unless-stopped
+    ports:
+      - "8083:80"
+    healthcheck:
+      test: ["CMD", "nginx", "-t"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
 ```
 
 访问：`http://127.0.0.1:8080`

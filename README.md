@@ -29,7 +29,7 @@
 
 ## 功能展示
 
-在线站点：<a href="http://nas.luoyechenfei.com:8115/" target="_blank">工具箱b</a>
+在线站点：<a href="http://nas.luoyechenfei.com:8115/" target="_blank">工具箱</a>
 
 ## 开始使用
 
@@ -62,7 +62,7 @@ npm install pnpm -g
 
 克隆
 ```
-git clone --depth=1 https://github.com/naroat/tools-web.git
+git clone --depth=1 https://github.com/luoyechenfei/tools-web.git
 ```
 
 安装
@@ -187,9 +187,6 @@ A:
 
 <br/>
 
-Q: 我可以参与开发 `Tools-Web` 吗？
-
-A: 当然可以，随时欢迎提交 `PR`
 
 
   

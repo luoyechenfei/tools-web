@@ -1,0 +1,5 @@
+
+===DONE Command failed: npm install --no-audit --no-fund
+npm error [safe-delete] 操作失败: ERROR C:\Users\fly\Desktop\tools-web\node_modules\katex: Error during a `trash` operation: Unknown { description: "Some operations were aborted" }
+npm error A complete log of this run can be found in: C:\Users\fly\AppData\Local\npm-cache\_logs\2026-08-29T18_26_48_904Z-debug-0.log
+===
